@@ -10,6 +10,8 @@
  补充：第3点中 Package.swift 必须位于该文件夹的第一层（即将 package文件夹中的所有文件转移到 xxx仓库文件夹中）
  5、添加版本号 git tag 1.0.0 -m "xxxxxx"，推送版本号 git push --tags
  6、引入该库，PROJECT -- 名称 -- Package Dependencies  --  +号，输入该库的远程仓库地址（Code -- HTTPS/SSH)，选择版本号，Add Package
+ 
+ 官方SPM手册：https://github.com/swiftlang/swift-package-manager/blob/main/Documentation/Usage.md
  */
 
 import PackageDescription
